@@ -1,0 +1,14 @@
+☐ # Agregar estilos a la página empleos
+# Agregar JS para los botones de aplicar:
+    ☐ Usar solo un evento enn el contenedor padre
+    ☐ Agregar clase is-active al botón seleccionado
+    ☐ Desabilitar botón después de hacer clic y cambiar texto a "Aplicado"
+
+# Agregar JS para la paginación:
+    ☐ Agregar la clase is-active al número de página seleccionado
+    ☐ Agregar estilos al botón seleccionado
+    ☐ Desabilitar el botón seleccionado
+
+# Agregar JS a los filtros:
+    ☐ # Ocultar las ofertas que no coincidan con los filtros seleccionados
+    
