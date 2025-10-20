@@ -15,7 +15,7 @@
     <header>
       <h2><a href="./index.html">DevJobs</a></h2>
       <nav>
-        <a href="#">Buscar</a>
+        <a href="./index.html">Inicio</a>
         <a href="#">Empleos</a>
         <a href="#">Empresas</a>
         <a href="#">Salarios</a>
@@ -59,6 +59,7 @@
         <div>
            <select name="tecnologia" id="tecnologia">Tecnología
           <option value="" disabled selected>Tecnología</option>
+          <option value="">Todas</option>
           <option value="javascript">JavaScript</option>
           <option value="python">Python</option>
           <option value="java">Java</option>
@@ -75,6 +76,7 @@
       <div>
           <select name="ubicacion" id="ubicacion">
           <option value="" disabled selected>Ubicación</option>
+          <option value="">Todas</option>
           <option value="remoto">Remoto</option>
           <option value="norteamerica">NA</option>
           <option value="europa">EU</option>
@@ -87,6 +89,7 @@
         <div>
           <select name="contrato" id="contrato">
           <option value="" disabled selected>Tipo de contrato</option>
+          <option value="">Todos</option>
           <option value="fulltime">Tiempo completo</option>
           <option value="parttime">Medio tiempo</option>
           <option value="freelance">Freelance</option>
@@ -95,7 +98,8 @@
         </div>
         <div>
           <select name="experiencia" id="experiencia">
-          <option value="" disabled selected>Nivel de experiencia</option>
+            <option value="" disabled selected>Nivel de experiencia</option>
+            <option value="">Todas</option>
           <option value="junior">Junior</option>
           <option value="mid">Mid-level</option>
           <option value="senior">Senior</option>
@@ -104,7 +108,7 @@
         </div>
        </div>
       </section>
-      <section class="resultados">
+      <section class="resultados" id="resultados">
         <h2>Resultados de la búsqueda</h2>
       <div>
           <article>
@@ -141,22 +145,33 @@
         </article>
       </div>
       </section>
-      <div class="pagination">
-        <a href="">
+      <nav class="pagination">
+        <a href="#resultados">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
         </a>
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">4</a>
-        <a href="">5</a>
-        <a href="">
+        <a href="#resultados">1</a>
+        <a href="#resultados">2</a>
+        <a href="#resultados">3</a>
+        <a href="#resultados">4</a>
+        <a href="#resultados">5</a>
+        <a href="#resultados">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
         </a>
-      </div>
+      </nav>
     </main>
     <footer>
       <small>&copy; 2025 DevJobs. Todos los derechos reservados.</small>
     </footer>
+    <template id="job-template">
+      <article>
+        <div>
+          <h3 class="job-title"></h3>
+          <p class="job-details"></p>
+          <p class="job-description"></p>
+        </div>
+        <button>Aplicar</button>
+      </article>
+
+    </template>
   </body>
 </html>
