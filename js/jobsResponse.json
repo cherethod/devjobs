@@ -85,7 +85,7 @@
       "puesto": "Project Manager TI",
       "empresa": "Tech Leaders",
       "ubicacion": "latam",
-      "tecnologia": [],
+      "tecnologia": ["react", "javascript", "node"],
       "contrato": "fulltime",
       "experiencia": "senior",
       "descripcion": "Project Manager con experiencia en metodologías ágiles. Gestión de equipos de desarrollo y seguimiento de proyectos tecnológicos."
@@ -157,7 +157,7 @@
       "puesto": "Scrum Master",
       "empresa": "Agile Solutions",
       "ubicacion": "remoto",
-      "tecnologia": [],
+      "tecnologia": ["javascript"],
       "contrato": "parttime",
       "experiencia": "mid",
       "descripcion": "Scrum Master certificado con experiencia facilitando equipos ágiles. Conocimientos en Kanban y otras metodologías ágiles."
@@ -202,7 +202,7 @@
       "puesto": "Product Manager Digital",
       "empresa": "Digital Products Inc.",
       "ubicacion": "norteamerica",
-      "tecnologia": [],
+      "tecnologia": ["angular", "react"],
       "contrato": "fulltime",
       "experiencia": "senior",
       "descripcion": "Product Manager con experiencia en desarrollo de productos digitales. Definición de roadmap y trabajo con equipos de desarrollo."
