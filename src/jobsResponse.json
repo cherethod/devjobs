@@ -1,0 +1,229 @@
+{
+  "ofertas": [
+    {
+      "puesto": "Ingeniero de Software",
+      "empresa": "Tech Solutions Inc.",
+      "ubicacion": "remoto",
+      "tecnologia": ["javascript", "react", "node"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación."
+    },
+    {
+      "puesto": "Analista de Datos",
+      "empresa": "Data Driven Co.",
+      "ubicacion": "latam",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R."
+    },
+    {
+      "puesto": "Desarrollador de Aplicaciones Móviles",
+      "empresa": "Mobile Apps Ltd.",
+      "ubicacion": "latam",
+      "tecnologia": ["java"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario."
+    },
+    {
+      "puesto": "Ingeniero de DevOps",
+      "empresa": "Cloud Services SA",
+      "ubicacion": "remoto",
+      "tecnologia": ["python", "java"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP."
+    },
+    {
+      "puesto": "Desarrollador Frontend",
+      "empresa": "Digital Creations",
+      "ubicacion": "latam",
+      "tecnologia": ["javascript", "react", "angular", "vue"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Buscamos desarrollador frontend con experiencia en React, Vue.js o Angular. Conocimientos en HTML5, CSS3 y TypeScript. Experiencia en desarrollo de interfaces responsivas."
+    },
+    {
+      "puesto": "Científico de Datos",
+      "empresa": "AI Innovations",
+      "ubicacion": "remoto",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Se busca científico de datos con experiencia en machine learning, estadística y análisis predictivo. Conocimientos en Python, TensorFlow y PyTorch."
+    },
+    {
+      "puesto": "Arquitecto de Software",
+      "empresa": "Enterprise Systems",
+      "ubicacion": "norteamerica",
+      "tecnologia": ["java", "csharp"],
+      "contrato": "fulltime",
+      "experiencia": "lead",
+      "descripcion": "Buscamos arquitecto de software para diseñar sistemas escalables. Experiencia en microservicios, cloud computing y patrones de diseño."
+    },
+    {
+      "puesto": "Desarrollador Backend",
+      "empresa": "ServerTech",
+      "ubicacion": "asia",
+      "tecnologia": ["javascript", "node", "python", "java"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Desarrollador backend con experiencia en Node.js, Python o Java. Conocimientos en bases de datos SQL y NoSQL, APIs REST y GraphQL."
+    },
+    {
+      "puesto": "Especialista en Ciberseguridad",
+      "empresa": "Secure Networks",
+      "ubicacion": "europa",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Especialista en ciberseguridad con experiencia en pentesting, análisis de vulnerabilidades y implementación de medidas de seguridad."
+    },
+    {
+      "puesto": "Project Manager TI",
+      "empresa": "Tech Leaders",
+      "ubicacion": "latam",
+      "tecnologia": ["react", "javascript", "node"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Project Manager con experiencia en metodologías ágiles. Gestión de equipos de desarrollo y seguimiento de proyectos tecnológicos."
+    },
+    {
+      "puesto": "Desarrollador Full Stack",
+      "empresa": "Web Solutions MX",
+      "ubicacion": "latam",
+      "tecnologia": ["javascript", "react", "node"],
+      "contrato": "freelance",
+      "experiencia": "mid",
+      "descripcion": "Desarrollador full stack con experiencia en JavaScript, React, Node.js y bases de datos. Capacidad para trabajar en proyectos completos."
+    },
+    {
+      "puesto": "Administrador de Sistemas",
+      "empresa": "IT Infrastructure Co.",
+      "ubicacion": "africa",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Administrador de sistemas con experiencia en Linux/Windows, virtualización y monitorización de infraestructura."
+    },
+    {
+      "puesto": "Diseñador UX/UI",
+      "empresa": "Creative Digital",
+      "ubicacion": "remoto",
+      "tecnologia": ["javascript"],
+      "contrato": "parttime",
+      "experiencia": "junior",
+      "descripcion": "Diseñador UX/UI con experiencia en investigación de usuarios, prototipado y herramientas como Figma, Sketch o Adobe XD."
+    },
+    {
+      "puesto": "Ingeniero de Calidad de Software",
+      "empresa": "Quality Assurance Tech",
+      "ubicacion": "oceania",
+      "tecnologia": ["javascript", "python"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Ingeniero de QA con experiencia en pruebas automatizadas, Selenium, Cypress y frameworks de testing."
+    },
+    {
+      "puesto": "Especialista en Cloud",
+      "empresa": "Cloud Masters",
+      "ubicacion": "remoto",
+      "tecnologia": ["python", "java"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Especialista en cloud computing con experiencia en AWS, Azure o Google Cloud. Certificaciones deseadas."
+    },
+    {
+      "puesto": "Desarrollador Python",
+      "empresa": "Data Systems",
+      "ubicacion": "norteamerica",
+      "tecnologia": ["python", "django"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Desarrollador Python con experiencia en Django, Flask y procesamiento de datos. Conocimientos en pandas y numpy."
+    },
+    {
+      "puesto": "Analista de Ciberseguridad",
+      "empresa": "Cyber Defense MX",
+      "ubicacion": "europa",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Analista de SOC con experiencia en detección y respuesta a incidentes de seguridad. Conocimientos en SIEM y threat intelligence."
+    },
+    {
+      "puesto": "Scrum Master",
+      "empresa": "Agile Solutions",
+      "ubicacion": "remoto",
+      "tecnologia": ["javascript"],
+      "contrato": "parttime",
+      "experiencia": "mid",
+      "descripcion": "Scrum Master certificado con experiencia facilitando equipos ágiles. Conocimientos en Kanban y otras metodologías ágiles."
+    },
+    {
+      "puesto": "Desarrollador Java",
+      "empresa": "Enterprise Apps",
+      "ubicacion": "asia",
+      "tecnologia": ["java"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Desarrollador Java con experiencia en Spring Boot, Hibernate y desarrollo de aplicaciones empresariales."
+    },
+    {
+      "puesto": "Especialista en Redes",
+      "empresa": "Network Solutions",
+      "ubicacion": "latam",
+      "tecnologia": ["python"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Especialista en redes con experiencia en configuración de routers, switches y firewalls. Conocimientos en protocolos de red."
+    },
+    {
+      "puesto": "Data Engineer",
+      "empresa": "Big Data Corp",
+      "ubicacion": "remoto",
+      "tecnologia": ["python", "java"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Data Engineer con experiencia en ETL, pipelines de datos y herramientas como Apache Spark, Kafka y Airflow."
+    },
+    {
+      "puesto": "Desarrollador .NET",
+      "empresa": "Microsoft Solutions",
+      "ubicacion": "europa",
+      "tecnologia": ["csharp"],
+      "contrato": "fulltime",
+      "experiencia": "mid",
+      "descripcion": "Desarrollador .NET con experiencia en C#, ASP.NET Core y Entity Framework. Conocimientos en desarrollo web."
+    },
+    {
+      "puesto": "Product Manager Digital",
+      "empresa": "Digital Products Inc.",
+      "ubicacion": "norteamerica",
+      "tecnologia": ["angular", "react"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Product Manager con experiencia en desarrollo de productos digitales. Definición de roadmap y trabajo con equipos de desarrollo."
+    },
+    {
+      "puesto": "Ingeniero de Machine Learning",
+      "empresa": "AI Labs",
+      "ubicacion": "remoto",
+      "tecnologia": ["python", "rust"],
+      "contrato": "fulltime",
+      "experiencia": "senior",
+      "descripcion": "Ingeniero de ML con experiencia en implementación de modelos en producción. Conocimientos en MLOps y despliegue de modelos."
+    },
+    {
+      "puesto": "Desarrollador PHP Junior",
+      "empresa": "Web Starters",
+      "ubicacion": "latam",
+      "tecnologia": ["php", "javascript"],
+      "contrato": "internship",
+      "experiencia": "junior",
+      "descripcion": "Buscamos desarrollador PHP para programa de pasantías. Conocimientos básicos en PHP, MySQL y JavaScript. Excelente oportunidad para aprender."
+    }
+  ]
+}
