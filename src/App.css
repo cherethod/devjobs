@@ -126,8 +126,6 @@ header div {
 }
 
 /* Hero */
-
-
 main > section:nth-child(1) {
   height: 500px;
   text-align: center;
@@ -157,15 +155,13 @@ main > section:nth-child(1) {
 }
 
 /* Formulario de Búsqueda */
-form,
-.filtros {
+form {
   max-width: 72rem;
   width: 100%;
   margin: 0 auto;
   padding-inline: 1rem;
-}
-
-form > div {
+  
+  & > div:first-child {
   display: flex;
   align-items: center;
   background-color: var(--input-bg);
@@ -175,7 +171,7 @@ form > div {
   gap: 0.5rem;
 }
 
-form span {
+span {
   padding-left: 0.75rem;
   color: var(--text-muted);
   display: flex;
@@ -183,7 +179,7 @@ form span {
   flex-shrink: 0;
 }
 
-form input[type="text"] {
+input[type="search"] {
   flex: 1;
   background: transparent;
   border: none;
@@ -194,7 +190,7 @@ form input[type="text"] {
   font-family: inherit;
 }
 
-form input[type="text"]::placeholder {
+input[type="text"]::placeholder {
   color: #64748b;
 }
 
@@ -202,7 +198,7 @@ form input[type="text"]::placeholder {
   display: flex;
   justify-content: flex-start;
   gap: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 0;
   div {
     background-color: var(--card-bg);
     border-radius: 0.5rem;
@@ -218,6 +214,7 @@ form input[type="text"]::placeholder {
     font-size: 1rem;
     position: relative;
   }
+}
 }
 
 button {

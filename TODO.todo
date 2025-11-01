@@ -20,14 +20,14 @@
     ✘ Reparar error de filtro seleccionado pero valor vacío @cancelled(25-10-26 15:51)
 
 # REACT:
-    ☐ Componetizar buscador de empleos
-    ☐ Componetizar lista de empleos
-    ☐ Componetizar paginación
-    ☐ Componetizar filtros
+    ✔ Componetizar buscador de empleos @done(25-11-01 16:03)
+    ✔ Componetizar lista de empleos @done(25-11-01 16:04)
+    ✔ Componetizar paginación @done(25-11-01 16:04)
+    ✔ Componetizar filtros @done(25-11-01 16:04)
     ☐ Manejar estado con useState y useEffect
-    ☐ Renderizar lista de empleos desde un archivo JSON
+    ✔ Renderizar lista de empleos desde un archivo JSON @done(25-11-01 16:04)
     ☐ Migrar la importación del JSON a una llamada fetch simulada con useEffect
-    ☐ Manejar los filtros con estado y pasarlos como props a la lista de empleos
-    ☐ Manejar la paginación con estado y pasarlo como props a la lista de empleos
-    ☐ Manejar el estado de los botones de aplicar empleo
+    ✔ Manejar los filtros con estado y pasarlos como props a la lista de empleos @done(25-11-01 16:04)
+    ✔ Manejar la paginación con estado y pasarlo como props a la lista de empleos @done(25-11-01 16:04)
+    ☐ Manejar el estado de los botones de aplicar empleo @started(25-11-01 16:04)
     ☐ Persistir el estado de los filtros y empleos aplicados en localStorage

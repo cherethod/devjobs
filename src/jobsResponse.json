@@ -1,229 +1,769 @@
-{
-  "ofertas": [
-    {
-      "puesto": "Ingeniero de Software",
-      "empresa": "Tech Solutions Inc.",
-      "ubicacion": "remoto",
-      "tecnologia": ["javascript", "react", "node"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación."
-    },
-    {
-      "puesto": "Analista de Datos",
-      "empresa": "Data Driven Co.",
-      "ubicacion": "latam",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R."
-    },
-    {
-      "puesto": "Desarrollador de Aplicaciones Móviles",
-      "empresa": "Mobile Apps Ltd.",
-      "ubicacion": "latam",
-      "tecnologia": ["java"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario."
-    },
-    {
-      "puesto": "Ingeniero de DevOps",
-      "empresa": "Cloud Services SA",
-      "ubicacion": "remoto",
-      "tecnologia": ["python", "java"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP."
-    },
-    {
-      "puesto": "Desarrollador Frontend",
-      "empresa": "Digital Creations",
-      "ubicacion": "latam",
-      "tecnologia": ["javascript", "react", "angular", "vue"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Buscamos desarrollador frontend con experiencia en React, Vue.js o Angular. Conocimientos en HTML5, CSS3 y TypeScript. Experiencia en desarrollo de interfaces responsivas."
-    },
-    {
-      "puesto": "Científico de Datos",
-      "empresa": "AI Innovations",
-      "ubicacion": "remoto",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Se busca científico de datos con experiencia en machine learning, estadística y análisis predictivo. Conocimientos en Python, TensorFlow y PyTorch."
-    },
-    {
-      "puesto": "Arquitecto de Software",
-      "empresa": "Enterprise Systems",
-      "ubicacion": "norteamerica",
-      "tecnologia": ["java", "csharp"],
-      "contrato": "fulltime",
-      "experiencia": "lead",
-      "descripcion": "Buscamos arquitecto de software para diseñar sistemas escalables. Experiencia en microservicios, cloud computing y patrones de diseño."
-    },
-    {
-      "puesto": "Desarrollador Backend",
-      "empresa": "ServerTech",
-      "ubicacion": "asia",
-      "tecnologia": ["javascript", "node", "python", "java"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Desarrollador backend con experiencia en Node.js, Python o Java. Conocimientos en bases de datos SQL y NoSQL, APIs REST y GraphQL."
-    },
-    {
-      "puesto": "Especialista en Ciberseguridad",
-      "empresa": "Secure Networks",
-      "ubicacion": "europa",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Especialista en ciberseguridad con experiencia en pentesting, análisis de vulnerabilidades y implementación de medidas de seguridad."
-    },
-    {
-      "puesto": "Project Manager TI",
-      "empresa": "Tech Leaders",
-      "ubicacion": "latam",
-      "tecnologia": ["react", "javascript", "node"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Project Manager con experiencia en metodologías ágiles. Gestión de equipos de desarrollo y seguimiento de proyectos tecnológicos."
-    },
-    {
-      "puesto": "Desarrollador Full Stack",
-      "empresa": "Web Solutions MX",
-      "ubicacion": "latam",
-      "tecnologia": ["javascript", "react", "node"],
-      "contrato": "freelance",
-      "experiencia": "mid",
-      "descripcion": "Desarrollador full stack con experiencia en JavaScript, React, Node.js y bases de datos. Capacidad para trabajar en proyectos completos."
-    },
-    {
-      "puesto": "Administrador de Sistemas",
-      "empresa": "IT Infrastructure Co.",
-      "ubicacion": "africa",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Administrador de sistemas con experiencia en Linux/Windows, virtualización y monitorización de infraestructura."
-    },
-    {
-      "puesto": "Diseñador UX/UI",
-      "empresa": "Creative Digital",
-      "ubicacion": "remoto",
-      "tecnologia": ["javascript"],
-      "contrato": "parttime",
-      "experiencia": "junior",
-      "descripcion": "Diseñador UX/UI con experiencia en investigación de usuarios, prototipado y herramientas como Figma, Sketch o Adobe XD."
-    },
-    {
-      "puesto": "Ingeniero de Calidad de Software",
-      "empresa": "Quality Assurance Tech",
-      "ubicacion": "oceania",
-      "tecnologia": ["javascript", "python"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Ingeniero de QA con experiencia en pruebas automatizadas, Selenium, Cypress y frameworks de testing."
-    },
-    {
-      "puesto": "Especialista en Cloud",
-      "empresa": "Cloud Masters",
-      "ubicacion": "remoto",
-      "tecnologia": ["python", "java"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Especialista en cloud computing con experiencia en AWS, Azure o Google Cloud. Certificaciones deseadas."
-    },
-    {
-      "puesto": "Desarrollador Python",
-      "empresa": "Data Systems",
-      "ubicacion": "norteamerica",
-      "tecnologia": ["python", "django"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Desarrollador Python con experiencia en Django, Flask y procesamiento de datos. Conocimientos en pandas y numpy."
-    },
-    {
-      "puesto": "Analista de Ciberseguridad",
-      "empresa": "Cyber Defense MX",
-      "ubicacion": "europa",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Analista de SOC con experiencia en detección y respuesta a incidentes de seguridad. Conocimientos en SIEM y threat intelligence."
-    },
-    {
-      "puesto": "Scrum Master",
-      "empresa": "Agile Solutions",
-      "ubicacion": "remoto",
-      "tecnologia": ["javascript"],
-      "contrato": "parttime",
-      "experiencia": "mid",
-      "descripcion": "Scrum Master certificado con experiencia facilitando equipos ágiles. Conocimientos en Kanban y otras metodologías ágiles."
-    },
-    {
-      "puesto": "Desarrollador Java",
-      "empresa": "Enterprise Apps",
-      "ubicacion": "asia",
-      "tecnologia": ["java"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Desarrollador Java con experiencia en Spring Boot, Hibernate y desarrollo de aplicaciones empresariales."
-    },
-    {
-      "puesto": "Especialista en Redes",
-      "empresa": "Network Solutions",
-      "ubicacion": "latam",
-      "tecnologia": ["python"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Especialista en redes con experiencia en configuración de routers, switches y firewalls. Conocimientos en protocolos de red."
-    },
-    {
-      "puesto": "Data Engineer",
-      "empresa": "Big Data Corp",
-      "ubicacion": "remoto",
-      "tecnologia": ["python", "java"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Data Engineer con experiencia en ETL, pipelines de datos y herramientas como Apache Spark, Kafka y Airflow."
-    },
-    {
-      "puesto": "Desarrollador .NET",
-      "empresa": "Microsoft Solutions",
-      "ubicacion": "europa",
-      "tecnologia": ["csharp"],
-      "contrato": "fulltime",
-      "experiencia": "mid",
-      "descripcion": "Desarrollador .NET con experiencia en C#, ASP.NET Core y Entity Framework. Conocimientos en desarrollo web."
-    },
-    {
-      "puesto": "Product Manager Digital",
-      "empresa": "Digital Products Inc.",
-      "ubicacion": "norteamerica",
-      "tecnologia": ["angular", "react"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Product Manager con experiencia en desarrollo de productos digitales. Definición de roadmap y trabajo con equipos de desarrollo."
-    },
-    {
-      "puesto": "Ingeniero de Machine Learning",
-      "empresa": "AI Labs",
-      "ubicacion": "remoto",
-      "tecnologia": ["python", "rust"],
-      "contrato": "fulltime",
-      "experiencia": "senior",
-      "descripcion": "Ingeniero de ML con experiencia en implementación de modelos en producción. Conocimientos en MLOps y despliegue de modelos."
-    },
-    {
-      "puesto": "Desarrollador PHP Junior",
-      "empresa": "Web Starters",
-      "ubicacion": "latam",
-      "tecnologia": ["php", "javascript"],
-      "contrato": "internship",
-      "experiencia": "junior",
-      "descripcion": "Buscamos desarrollador PHP para programa de pasantías. Conocimientos básicos en PHP, MySQL y JavaScript. Excelente oportunidad para aprender."
+[
+  {
+    "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a4",
+    "titulo": "Desarrollador de Software Senior",
+    "empresa": "Tech Solutions Inc.",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
+    "data": {
+      "technology": ["javascript", "react", "node", "typescript", "git"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
     }
-  ]
-}
+  },
+  {
+    "id": "d35b2c89-5d60-4f26-b19a-6cfb2f1a0f57",
+    "titulo": "Analista de Datos Junior",
+    "empresa": "Data Driven Co.",
+    "ubicacion": "Ciudad de México",
+    "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
+    "data": {
+      "technology": ["python", "mysql", "postgresql", "pandas", "numpy"],
+      "modalidad": "cdmx",
+      "exp_level": "junior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e31f9a92-61d7-4b7a-b3a2-91e8c1f40b2d",
+    "titulo": "Desarrollador de Aplicaciones Móviles",
+    "empresa": "Mobile Apps Ltd.",
+    "ubicacion": "Guadalajara",
+    "descripcion": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
+    "data": {
+      "technology": ["swift", "kotlin", "reactnative", "flutter", "git"],
+      "modalidad": "guadalajara",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f62d8a34-923a-4ac2-9b0b-14e0ac2f5405",
+    "titulo": "Ingeniero de DevOps",
+    "empresa": "Cloud Services SA",
+    "ubicacion": "Remoto",
+    "descripcion": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.",
+    "data": {
+      "technology": ["docker", "kubernetes", "aws", "azure", "jenkins", "terraform", "git"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a9f31a8e-ec38-4fd3-9114-88cc6d37a92b",
+    "titulo": "Diseñador UX/UI",
+    "empresa": "Creative Minds Studio",
+    "ubicacion": "Barcelona",
+    "descripcion": "Estamos buscando un diseñador UX/UI con pasión por crear experiencias digitales excepcionales. Se requiere experiencia en Figma, diseño centrado en el usuario y colaboración con equipos de desarrollo.",
+    "data": {
+      "technology": ["figma", "adobexd", "sketch", "javascript", "html", "css"],
+      "modalidad": "barcelona",
+      "exp_level": "mid",
+      "contract": "freelance"
+    }
+  },
+  {
+    "id": "c1b65b42-68c5-4f1c-a8c2-8d52c5a7a5d1",
+    "titulo": "Administrador de Bases de Datos",
+    "empresa": "Secure Data Corp.",
+    "ubicacion": "Buenos Aires",
+    "descripcion": "Se busca un administrador de bases de datos con experiencia en PostgreSQL y MySQL. El candidato deberá asegurar la disponibilidad, seguridad y rendimiento de las bases de datos de producción.",
+    "data": {
+      "technology": ["postgresql", "mysql", "mongodb", "redis", "oracle", "bash"],
+      "modalidad": "bsas",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "bb8f2a99-6a20-4f9e-912a-16f54a49b8c3",
+    "titulo": "Especialista en Ciberseguridad",
+    "empresa": "SafeNet Solutions",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos un especialista en ciberseguridad con conocimientos en protección de infraestructuras, análisis de vulnerabilidades y respuesta ante incidentes. Se valorará experiencia con SIEM y certificaciones de seguridad.",
+    "data": {
+      "technology": ["python", "bash", "aws", "azure", "docker", "kubernetes", "git"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "fe7b2c54-4f47-4e2b-9e87-2b5413a6b24f",
+    "titulo": "Product Manager Senior",
+    "empresa": "NextGen Technologies",
+    "ubicacion": "Madrid",
+    "descripcion": "Estamos buscando un Product Manager con experiencia en la definición y lanzamiento de productos digitales. Se requiere capacidad analítica, liderazgo y conocimiento en metodologías ágiles.",
+    "data": {
+      "technology": ["jira", "confluence", "notion", "python", "sql"],
+      "modalidad": "madrid",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a71f7a92-56d9-4b42-9f16-cb29b40e5f2c",
+    "titulo": "Frontend Developer",
+    "empresa": "Bright Web Studio",
+    "ubicacion": "Valencia",
+    "descripcion": "Buscamos un desarrollador frontend con experiencia en React, TypeScript y Tailwind CSS. Se valorará conocimiento en optimización de rendimiento y accesibilidad web.",
+    "data": {
+      "technology": ["react", "typescript", "tailwind", "javascript", "html", "css", "git"],
+      "modalidad": "valencia",
+      "exp_level": "mid",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "f91e4c7b-3840-43da-8ad7-3a52e2a8cf1d",
+    "titulo": "Backend Developer",
+    "empresa": "APIWorks",
+    "ubicacion": "Bogotá",
+    "descripcion": "Estamos buscando un desarrollador backend con experiencia en Node.js, Express y bases de datos NoSQL. Se requiere conocimiento en arquitectura de microservicios.",
+    "data": {
+      "technology": ["node", "express", "mongodb", "docker", "aws", "git"],
+      "modalidad": "bogota",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b65a3c9f-b174-4d86-b8a2-9cf9b1e13a22",
+    "titulo": "Ingeniero de Machine Learning Senior",
+    "empresa": "AI Labs",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos un ingeniero de machine learning con experiencia en modelos de predicción y procesamiento de datos. Se valorará conocimiento en TensorFlow, PyTorch y MLOps.",
+    "data": {
+      "technology": ["python", "tensorflow", "pytorch", "pandas", "numpy", "docker", "aws"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e8d13c45-36cb-46cf-8f9d-8a0a7b532b8b",
+    "titulo": "QA Automation Engineer",
+    "empresa": "Quality First",
+    "ubicacion": "Lima",
+    "descripcion": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
+    "data": {
+      "technology": ["python", "javascript", "selenium", "docker", "jenkins", "git"],
+      "modalidad": "lima",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d2e93b8a-0b41-4d09-9a52-36a0f418d493",
+    "titulo": "Administrador de Sistemas",
+    "empresa": "InfraTech Global",
+    "ubicacion": "Santiago de Chile",
+    "descripcion": "Buscamos un administrador de sistemas con experiencia en Linux, Docker y monitoreo de servidores. Conocimiento en scripting Bash o Python será un plus.",
+    "data": {
+      "technology": ["bash", "python", "docker", "kubernetes", "aws", "ansible", "git"],
+      "modalidad": "santiago",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "cc0c1fae-4e85-4e2c-9b02-f12f9df8a2c9",
+    "titulo": "Scrum Master",
+    "empresa": "Agile Minds",
+    "ubicacion": "Madrid",
+    "descripcion": "Estamos buscando un Scrum Master con experiencia en metodologías ágiles y gestión de equipos multidisciplinarios. Certificación Scrum Master deseable.",
+    "data": {
+      "technology": ["jira", "confluence", "notion"],
+      "modalidad": "madrid",
+      "exp_level": "mid",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "a2f1d8c6-b72c-45f5-bcc5-5c1d1f39b0b1",
+    "titulo": "Soporte Técnico Nivel 2",
+    "empresa": "HelpDesk Pro",
+    "ubicacion": "Monterrey",
+    "descripcion": "Buscamos un técnico de soporte con habilidades en resolución de incidencias, redes y sistemas operativos. Se requiere atención al detalle y excelente trato con el usuario.",
+    "data": {
+      "technology": ["bash", "powershell", "python", "mysql"],
+      "modalidad": "monterrey",
+      "exp_level": "junior",
+      "contract": "internship"
+    }
+  },
+  {
+    "id": "f8e9d7c6-b5a4-4e3f-8c2d-1b0a9f8e7d6c",
+    "titulo": "Full Stack Developer",
+    "empresa": "Digital Innovations",
+    "ubicacion": "Medellín",
+    "descripcion": "Buscamos desarrollador Full Stack con experiencia en React, Node.js y bases de datos SQL. Conocimiento en cloud computing y DevOps será valorado.",
+    "data": {
+      "technology": ["react", "node", "javascript", "typescript", "postgresql", "docker", "aws"],
+      "modalidad": "medellin",
+      "exp_level": "senior",
+      "contract": "freelance"
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e6f",
+    "titulo": "Data Scientist",
+    "empresa": "Analytics Pro",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos científico de datos con experiencia en machine learning, análisis estadístico y visualización de datos. Dominio de Python y bibliotecas de data science requerido.",
+    "data": {
+      "technology": ["python", "pandas", "numpy", "tensorflow", "pytorch", "mysql", "mongodb"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b7c8d9e0-f1a2-4b3c-5d6e-7f8a9b0c1d2e",
+    "titulo": "Cloud Architect",
+    "empresa": "Cloud Transformers",
+    "ubicacion": "São Paulo",
+    "descripcion": "Buscamos arquitecto cloud con experiencia en diseño de infraestructuras escalables en AWS, Azure o GCP. Conocimiento en microservicios y contenedores.",
+    "data": {
+      "technology": ["aws", "azure", "gcp", "docker", "kubernetes", "terraform", "ansible"],
+      "modalidad": "sao-paulo",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+    "titulo": "iOS Developer",
+    "empresa": "App Masters",
+    "ubicacion": "CDMX",
+    "descripcion": "Buscamos desarrollador iOS con experiencia en Swift y UIKit. Conocimiento en arquitecturas MVVM y Clean Architecture.",
+    "data": {
+      "technology": ["swift", "ios", "xcode", "git", "firebase"],
+      "modalidad": "cdmx",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e9f0a1b2-c8d9-4e3f-5a6b-7c8d9e0f1a2b",
+    "titulo": "Android Developer",
+    "empresa": "Mobile First",
+    "ubicacion": "Bogotá",
+    "descripcion": "Buscamos desarrollador Android con experiencia en Kotlin y Jetpack Compose. Conocimiento en arquitecturas limpias y testing.",
+    "data": {
+      "technology": ["kotlin", "android", "java", "firebase", "git"],
+      "modalidad": "bogota",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+    "titulo": "Vue.js Developer",
+    "empresa": "Modern Web Studio",
+    "ubicacion": "Barcelona",
+    "descripcion": "Buscamos desarrollador frontend especializado en Vue.js. Experiencia en Vue 3, Composition API y ecosistema Vue.",
+    "data": {
+      "technology": ["vue", "javascript", "typescript", "html", "css", "git"],
+      "modalidad": "barcelona",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a3b4c5d6-e7f8-4a9b-8c0d-1e2f3a4b5c6d",
+    "titulo": "Python Backend Developer",
+    "empresa": "Data Systems",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador backend con experiencia en Python y Django. Conocimiento en APIs RESTful y bases de datos relacionales.",
+    "data": {
+      "technology": ["python", "django", "postgresql", "docker", "aws", "git"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b4c5d6e7-f8a9-4b0c-8d1e-2f3a4b5c6d7e",
+    "titulo": "Java Spring Developer",
+    "empresa": "Enterprise Solutions",
+    "ubicacion": "Madrid",
+    "descripcion": "Buscamos desarrollador Java con experiencia en Spring Boot y microservicios. Conocimiento en Hibernate y bases de datos SQL.",
+    "data": {
+      "technology": ["java", "spring", "mysql", "docker", "aws", "git"],
+      "modalidad": "madrid",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "c5d6e7f8-a9b0-4c1d-8e2f-3a4b5c6d7e8f",
+    "titulo": "Ruby on Rails Developer",
+    "empresa": "Startup Factory",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador Full Stack con experiencia en Ruby on Rails. Conocimiento en patrones MVC y testing con RSpec.",
+    "data": {
+      "technology": ["ruby", "rails", "postgresql", "javascript", "html", "css"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d6e7f8a9-b0c1-4d2e-8f3a-4b5c6d7e8f9a",
+    "titulo": "Go Developer",
+    "empresa": "High Performance Systems",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador Backend con experiencia en Go. Conocimiento en sistemas distribuidos y APIs de alto rendimiento.",
+    "data": {
+      "technology": ["go", "docker", "kubernetes", "postgresql", "aws", "git"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e7f8a9b0-c1d2-4e3f-8a4b-5c6d7e8f9a0b",
+    "titulo": "Angular Developer",
+    "empresa": "Enterprise Web Apps",
+    "ubicacion": "Buenos Aires",
+    "descripcion": "Buscamos desarrollador Frontend especializado en Angular. Experiencia en Angular 12+, RxJS y NgRx.",
+    "data": {
+      "technology": ["angular", "typescript", "html", "css", "rxjs", "git"],
+      "modalidad": "bsas",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f4a-8b5c-6d7e8f9a0b1c",
+    "titulo": "React Native Developer",
+    "empresa": "Cross Platform Apps",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador móvil con experiencia en React Native. Conocimiento en desarrollo cross-platform y APIs nativas.",
+    "data": {
+      "technology": ["reactnative", "javascript", "typescript", "node", "git"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "freelance"
+    }
+  },
+  {
+    "id": "a9b0c1d2-e3f4-4a5b-8c6d-7e8f9a0b1c2d",
+    "titulo": "Flutter Developer",
+    "empresa": "Mobile Innovations",
+    "ubicacion": "Guadalajara",
+    "descripcion": "Buscamos desarrollador móvil con experiencia en Flutter y Dart. Conocimiento en widgets personalizados y animaciones.",
+    "data": {
+      "technology": ["flutter", "dart", "firebase", "git"],
+      "modalidad": "guadalajara",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b0c1d2e3-f4a5-4b6c-8d7e-8f9a0b1c2d3e",
+    "titulo": "DevOps Engineer Junior",
+    "empresa": "Cloud Startups",
+    "ubicacion": "Monterrey",
+    "descripcion": "Buscamos ingeniero DevOps en formación con conocimientos básicos en Docker, CI/CD y cloud. Excelente oportunidad para aprender.",
+    "data": {
+      "technology": ["docker", "jenkins", "aws", "bash", "git"],
+      "modalidad": "monterrey",
+      "exp_level": "junior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "c1d2e3f4-a5b6-4c7d-8e8f-9a0b1c2d3e4f",
+    "titulo": "Senior Data Engineer",
+    "empresa": "Big Data Corp",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos ingeniero de datos con experiencia en pipelines ETL, data warehouses y procesamiento de grandes volúmenes de datos.",
+    "data": {
+      "technology": ["python", "pandas", "postgresql", "aws", "docker", "airflow"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d2e3f4a5-b6c7-4d8e-8f9a-0b1c2d3e4f5a",
+    "titulo": "WordPress Developer",
+    "empresa": "Web Agency Pro",
+    "ubicacion": "Valencia",
+    "descripcion": "Buscamos desarrollador WordPress con experiencia en temas personalizados y plugins. Conocimiento en PHP, JavaScript y CSS.",
+    "data": {
+      "technology": ["php", "wordpress", "javascript", "html", "css", "mysql"],
+      "modalidad": "valencia",
+      "exp_level": "mid",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "e3f4a5b6-c7d8-4e9f-8a0b-1c2d3e4f5a6b",
+    "titulo": "Laravel Developer",
+    "empresa": "PHP Experts",
+    "ubicacion": "Lima",
+    "descripcion": "Buscamos desarrollador Backend con experiencia en Laravel. Conocimiento en Eloquent, APIs y arquitectura MVC.",
+    "data": {
+      "technology": ["php", "laravel", "mysql", "javascript", "docker", "git"],
+      "modalidad": "lima",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f4a5b6c7-d8e9-4f0a-8b1c-2d3e4f5a6b7c",
+    "titulo": "Frontend Developer Junior",
+    "empresa": "Digital Academy",
+    "ubicacion": "Santiago de Chile",
+    "descripcion": "Buscamos desarrollador frontend junior con conocimientos en HTML, CSS y JavaScript. Excelente oportunidad para crecer profesionalmente.",
+    "data": {
+      "technology": ["html", "css", "javascript", "git"],
+      "modalidad": "santiago",
+      "exp_level": "junior",
+      "contract": "internship"
+    }
+  },
+  {
+    "id": "a5b6c7d8-e9f0-4a1b-8c2d-3e4f5a6b7c8d",
+    "titulo": "Senior Cloud Engineer",
+    "empresa": "Multi Cloud Solutions",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos ingeniero cloud con experiencia en múltiples plataformas (AWS, Azure, GCP). Conocimiento en infraestructura como código.",
+    "data": {
+      "technology": ["aws", "azure", "gcp", "terraform", "docker", "kubernetes"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b6c7d8e9-f0a1-4b2c-8d3e-4f5a6b7c8d9e",
+    "titulo": "Technical Lead",
+    "empresa": "Tech Growth Inc.",
+    "ubicacion": "Madrid",
+    "descripcion": "Buscamos líder técnico con experiencia en gestión de equipos y arquitectura de software. Conocimiento en múltiples tecnologías.",
+    "data": {
+      "technology": ["javascript", "node", "react", "aws", "docker", "git"],
+      "modalidad": "madrid",
+      "exp_level": "lead",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "c7d8e9f0-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+    "titulo": "Blockchain Developer",
+    "empresa": "Crypto Ventures",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador blockchain con experiencia en Solidity y smart contracts. Conocimiento en Ethereum y Web3.",
+    "data": {
+      "technology": ["solidity", "javascript", "node", "web3", "git"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "freelance"
+    }
+  },
+  {
+    "id": "d8e9f0a1-b2c3-4d4e-8f5a-6b7c8d9e0f1a",
+    "titulo": "Game Developer",
+    "empresa": "Gaming Studio",
+    "ubicacion": "Barcelona",
+    "descripcion": "Buscamos desarrollador de videojuegos con experiencia en Unity y C#. Conocimiento en gráficos 3D y física.",
+    "data": {
+      "technology": ["csharp", "unity", "c++", "python", "git"],
+      "modalidad": "barcelona",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e9f0a1b2-c3d4-4e5f-8a6b-7c8d9e0f1a2b",
+    "titulo": "SysAdmin Junior",
+    "empresa": "IT Services",
+    "ubicacion": "Bogotá",
+    "descripcion": "Buscamos administrador de sistemas junior con conocimientos en Linux y redes. Oportunidad de crecimiento en empresa en expansión.",
+    "data": {
+      "technology": ["bash", "linux", "docker", "mysql", "git"],
+      "modalidad": "bogota",
+      "exp_level": "junior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f0a1b2c3-d4e5-4f6a-8b7c-8d9e0f1a2b3c",
+    "titulo": "Senior Full Stack Developer",
+    "empresa": "Digital Transformation",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador full stack senior con experiencia en múltiples tecnologías y liderazgo técnico.",
+    "data": {
+      "technology": ["react", "node", "python", "aws", "docker", "postgresql"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4a7b-8c8d-9e0f1a2b3c4d",
+    "titulo": "QA Manual Tester",
+    "empresa": "Software Quality",
+    "ubicacion": "Medellín",
+    "descripcion": "Buscamos tester manual con atención al detalle y experiencia en casos de prueba. Conocimiento en metodologías ágiles.",
+    "data": {
+      "technology": ["jira", "postman", "mysql", "git"],
+      "modalidad": "medellin",
+      "exp_level": "junior",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4b8c-8d9e-0f1a2b3c4d5e",
+    "titulo": "Data Analyst",
+    "empresa": "Business Intelligence",
+    "ubicacion": "São Paulo",
+    "descripcion": "Buscamos analista de datos con experiencia en SQL y herramientas de visualización. Conocimiento en Power BI o Tableau.",
+    "data": {
+      "technology": ["python", "sql", "pandas", "mysql", "postgresql"],
+      "modalidad": "sao-paulo",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c9d-8e0f-1a2b3c4d5e6f",
+    "titulo": "React Developer",
+    "empresa": "Modern Apps",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos desarrollador React con experiencia en hooks, context y estado global. Conocimiento en testing con Jest.",
+    "data": {
+      "technology": ["react", "javascript", "typescript", "jest", "git"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d4e5f6a7-b8c9-4d0e-8f1a-2b3c4d5e6f7a",
+    "titulo": "Node.js Backend Developer",
+    "empresa": "API Solutions",
+    "ubicacion": "Buenos Aires",
+    "descripcion": "Buscamos desarrollador backend especializado en Node.js. Experiencia en Express, APIs RESTful y GraphQL.",
+    "data": {
+      "technology": ["node", "express", "mongodb", "graphql", "docker", "aws"],
+      "modalidad": "bsas",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4e1f-8a2b-3c4d5e6f7a8b",
+    "titulo": "UX Researcher",
+    "empresa": "User Centric",
+    "ubicacion": "Madrid",
+    "descripcion": "Buscamos investigador UX con experiencia en testing de usuarios y análisis cualitativo. Conocimiento en metodologías de investigación.",
+    "data": {
+      "technology": ["figma", "adobexd", "jira", "notion"],
+      "modalidad": "madrid",
+      "exp_level": "mid",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "f6a7b8c9-d0e1-4f2a-8b3c-4d5e6f7a8b9c",
+    "titulo": "Security Engineer",
+    "empresa": "Cyber Defense",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos ingeniero de seguridad con experiencia en pentesting y análisis de vulnerabilidades. Conocimiento en OWASP y herramientas de seguridad.",
+    "data": {
+      "technology": ["python", "bash", "aws", "docker", "kubernetes", "git"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a7b8c9d0-e1f2-4a3b-8c4d-5e6f7a8b9c0d",
+    "titulo": "PHP Developer",
+    "empresa": "Web Development Co.",
+    "ubicacion": "Guadalajara",
+    "descripcion": "Buscamos desarrollador PHP con experiencia en frameworks modernos y APIs. Conocimiento en patrones de diseño y testing.",
+    "data": {
+      "technology": ["php", "laravel", "mysql", "javascript", "docker", "git"],
+      "modalidad": "guadalajara",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b4c-8d5e-6f7a8b9c0d1e",
+    "titulo": "Data Science Intern",
+    "empresa": "AI Research Lab",
+    "ubicacion": "CDMX",
+    "descripcion": "Buscamos pasante de data science con conocimientos básicos en Python y machine learning. Excelente oportunidad de aprendizaje.",
+    "data": {
+      "technology": ["python", "pandas", "numpy", "mysql"],
+      "modalidad": "cdmx",
+      "exp_level": "junior",
+      "contract": "internship"
+    }
+  },
+  {
+    "id": "c9d0e1f2-a3b4-4c5d-8e6f-7a8b9c0d1e2f",
+    "titulo": "Senior SRE",
+    "empresa": "Platform Engineering",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos Site Reliability Engineer con experiencia en monitoreo, alerting y mejora de la confiabilidad de sistemas.",
+    "data": {
+      "technology": ["python", "go", "docker", "kubernetes", "aws", "terraform"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d0e1f2a3-b4c5-4d6e-8f7a-8b9c0d1e2f3a",
+    "titulo": "Frontend Architect",
+    "empresa": "Scale Up Tech",
+    "ubicacion": "Barcelona",
+    "descripcion": "Buscamos arquitecto frontend con experiencia en diseño de sistemas escalables y decisiones técnicas estratégicas.",
+    "data": {
+      "technology": ["react", "typescript", "node", "aws", "docker", "webpack"],
+      "modalidad": "barcelona",
+      "exp_level": "lead",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e1f2a3b4-c5d6-4e7f-8a8b-9c0d1e2f3a4b",
+    "titulo": "Backend Python Developer",
+    "empresa": "FastAPI Shop",
+    "ubicacion": "Valencia",
+    "descripcion": "Buscamos desarrollador backend con experiencia en FastAPI y Python moderno. Conocimiento en async/await y bases de datos.",
+    "data": {
+      "technology": ["python", "fastapi", "postgresql", "docker", "aws", "git"],
+      "modalidad": "valencia",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "f2a3b4c5-d6e7-4f8a-8b9c-0d1e2f3a4b5c",
+    "titulo": "Mobile Lead",
+    "empresa": "App Factory",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos líder técnico móvil con experiencia en React Native y gestión de equipos. Conocimiento en ambas plataformas (iOS/Android).",
+    "data": {
+      "technology": ["reactnative", "javascript", "typescript", "node", "aws", "git"],
+      "modalidad": "remoto",
+      "exp_level": "lead",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a3b4c5d6-e7f8-4a9b-8c0d-1e2f3a4b5c6d",
+    "titulo": "Junior DevOps",
+    "empresa": "Cloud Native Inc.",
+    "ubicacion": "Lima",
+    "descripcion": "Buscamos ingeniero DevOps junior con conocimientos en Docker y CI/CD. Oportunidad de crecimiento en empresa cloud-native.",
+    "data": {
+      "technology": ["docker", "jenkins", "aws", "bash", "git"],
+      "modalidad": "lima",
+      "exp_level": "junior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b4c5d6e7-f8a9-4b0c-8d1e-2f3a4b5c6d7e",
+    "titulo": "Senior Java Developer",
+    "empresa": "Financial Systems",
+    "ubicacion": "Santiago de Chile",
+    "descripcion": "Buscamos desarrollador Java senior con experiencia en sistemas financieros y alta disponibilidad. Conocimiento en Spring y microservicios.",
+    "data": {
+      "technology": ["java", "spring", "mysql", "docker", "aws", "kubernetes"],
+      "modalidad": "santiago",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "c5d6e7f8-a9b0-4c1d-8e2f-3a4b5c6d7e8f",
+    "titulo": "Full Stack JavaScript",
+    "empresa": "Startup Ventures",
+    "ubicacion": "Monterrey",
+    "descripcion": "Buscamos desarrollador full stack con experiencia en el ecosistema JavaScript. Conocimiento en React, Node.js y bases de datos.",
+    "data": {
+      "technology": ["javascript", "react", "node", "mongodb", "aws", "git"],
+      "modalidad": "monterrey",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "d6e7f8a9-b0c1-4d2e-8f3a-4b5c6d7e8f9a",
+    "titulo": "AI Research Scientist",
+    "empresa": "Deep Learning Labs",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos científico investigador con experiencia en modelos de deep learning y publicaciones académicas. PhD en CS o campo relacionado.",
+    "data": {
+      "technology": ["python", "tensorflow", "pytorch", "numpy", "pandas", "docker"],
+      "modalidad": "remoto",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "e7f8a9b0-c1d2-4e3f-8a4b-5c6d7e8f9a0b",
+    "titulo": "Technical Writer",
+    "empresa": "Dev Documentation",
+    "ubicacion": "Remoto",
+    "descripcion": "Buscamos escritor técnico con experiencia en documentación de APIs y herramientas para desarrolladores. Conocimiento técnico básico requerido.",
+    "data": {
+      "technology": ["git", "markdown", "postman", "javascript", "python"],
+      "modalidad": "remoto",
+      "exp_level": "mid",
+      "contract": "parttime"
+    }
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f4a-8b5c-6d7e8f9a0b1c",
+    "titulo": "Ruby Developer",
+    "empresa": "E-commerce Platform",
+    "ubicacion": "Medellín",
+    "descripcion": "Buscamos desarrollador Ruby con experiencia en aplicaciones web y APIs. Conocimiento en testing y patrones de diseño.",
+    "data": {
+      "technology": ["ruby", "rails", "postgresql", "redis", "docker", "aws"],
+      "modalidad": "medellin",
+      "exp_level": "mid",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "a9b0c1d2-e3f4-4a5b-8c6d-7e8f9a0b1c2d",
+    "titulo": "Azure Cloud Specialist",
+    "empresa": "Microsoft Partner",
+    "ubicacion": "São Paulo",
+    "descripcion": "Buscamos especialista en Azure con experiencia en migraciones cloud y arquitecturas en Microsoft Azure.",
+    "data": {
+      "technology": ["azure", "docker", "kubernetes", "terraform", "powershell", "git"],
+      "modalidad": "sao-paulo",
+      "exp_level": "senior",
+      "contract": "fulltime"
+    }
+  },
+  {
+    "id": "b0c1d2e3-f4a5-4b6c-8d7e-8f9a0b1c2d3e",
+    "titulo": "Junior Frontend Developer",
+    "empresa": "Web Studio",
+    "ubicacion": "Bogotá",
+    "descripcion": "Buscamos desarrollador frontend junior con ganas de aprender React y modernas herramientas de desarrollo web.",
+    "data": {
+      "technology": ["html", "css", "javascript", "react", "git"],
+      "modalidad": "bogota",
+      "exp_level": "junior",
+      "contract": "internship"
+    }
+  }
+]

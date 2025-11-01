@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const JobCard = ({ puesto, empresa, ubicacion, descripcion }) => {
+export const JobCard = ({ puesto, empresa, ubicacion, descripcion }) => {
     const [isApplied, setIsApplied] = useState(false);
     const text = isApplied ? "Aplicado" : "Aplicar";
     const btnClass = isApplied ? "is-applied" : "";
@@ -25,4 +25,3 @@ const JobCard = ({ puesto, empresa, ubicacion, descripcion }) => {
           </article>
     )
 }
-export default JobCard;
