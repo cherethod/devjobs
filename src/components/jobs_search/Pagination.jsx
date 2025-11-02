@@ -1,14 +1,10 @@
+import styles from "./Pagination.module.css";
 export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   const isFirstPage = currentPage === 1;
   const isLastPage = currentPage === totalPages;
-
-  const disabledStyle = {
-    pointerEvents: "none",
-    opacity: 0.3,
-  };
 
   const prevPageChange = () => {
     if (!currentPage === 1) {
@@ -27,11 +23,11 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   }
   
     return (
-          <nav className="pagination">
+          <nav className={styles.pagination}>
         <a 
           href=""
           onClick={prevPageChange}
-          style={isFirstPage ? disabledStyle : {}}
+          className={isFirstPage ? styles.isDisabled : ""}
           >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +50,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
           <a 
             href="#"
             key={page}
-            className={page === currentPage ? "is-active" : ""}
+            className={page === currentPage ? styles.isActive : ""}
             onClick={() => changeToPage(page)}
           >
             {page}
@@ -64,7 +60,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <a 
         href=""
         onClick={nextPageChange}
-        style={isLastPage ? disabledStyle : {}}
+        className={isLastPage ? styles.isDisabled : ""}
         >
           <svg
             xmlns="hp://www.w3.org/2000/svg"

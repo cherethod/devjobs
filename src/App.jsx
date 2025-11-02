@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import { useState } from "react";
-import {JobsList} from "./components/JobsList";
-import { Pagination } from "./components/Pagination";
-import { FiltersForm } from "./components/FiltersForm";
+import {JobsList} from "./components/jobs_search/JobsList";
+import { Pagination } from "./components/jobs_search/Pagination";
+import { FiltersForm } from "./components/jobs_search/FiltersForm";
 import Footer from "./components/Footer";
 import "./App.css";
 

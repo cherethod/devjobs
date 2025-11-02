@@ -11,7 +11,7 @@ export const JobsList = ({ jobsToShow }) => {
               empresa={job.empresa}
               ubicacion={job.ubicacion}
               descripcion={job.descripcion}
-              key={`job-${index}`}
+              key={job.id}
             />
           ))}
       </div>
