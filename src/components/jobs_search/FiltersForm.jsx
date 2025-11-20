@@ -1,31 +1,26 @@
 import { useId } from "react";
+import { useSearchForm } from "../../hooks/useForm";
 
-export const FiltersForm = ({ onChange }) => {
+export const FiltersForm = ({ onChange, filters }) => {
   const searchFilterId = useId();
   const techFilterId = useId();
   const locationFilterId = useId();
   const contractFilterId = useId();
   const experienceFilterId = useId();
 
-  const handleFormChange = (event) => {
-    const jobsFormData = new FormData(event.currentTarget.form);
-
-    const filters = {
-      techFilter: jobsFormData.get(techFilterId) || "",
-      locationFilter: jobsFormData.get(locationFilterId) || "",
-      contractFilter: jobsFormData.get(contractFilterId) || "",
-      experienceFilter: jobsFormData.get(experienceFilterId) || "",
-      searchFilter: jobsFormData.get(searchFilterId) || "",
-    };
-
-    onChange(filters);
-  };
+  const { handleFormChange } = useSearchForm({
+    techFilterId,
+    locationFilterId,
+    contractFilterId,
+    experienceFilterId,
+    searchFilterId,
+    onChange,
+  });
 
   return (
-    <form action="" role="search" onSubmit={handleFormChange}>
+    <form action="" role="search" onChange={handleFormChange}>
       <div>
         <svg
-          xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -34,7 +29,6 @@ export const FiltersForm = ({ onChange }) => {
           strokeWidth="1"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="icon icon-tabler icons-tabler-outline icon-tabler-search"
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
@@ -44,18 +38,13 @@ export const FiltersForm = ({ onChange }) => {
           type="search"
           name={searchFilterId}
           placeholder="Busca trabajos, empresas o habilidades"
-          onChange={handleFormChange}
+          defaultValue={filters.searchFilter || ""}
         />
       </div>
 
       <div className="filtros">
         <div>
-          <select
-            name={techFilterId}
-            id="tecnologia"
-            // value=""
-            onChange={handleFormChange}
-          >
+          <select name={techFilterId} id="tecnologia">
             <option value="" disabled>
               Tecnología
             </option>
@@ -144,12 +133,7 @@ export const FiltersForm = ({ onChange }) => {
           </select>
         </div>
         <div>
-          <select
-            name={locationFilterId}
-            id="ubicacion"
-            // value=""
-            onChange={handleFormChange}
-          >
+          <select name={locationFilterId} id="ubicacion">
             <option value="" disabled>
               Ubicación
             </option>
@@ -170,12 +154,7 @@ export const FiltersForm = ({ onChange }) => {
           </select>
         </div>
         <div>
-          <select
-            name={contractFilterId}
-            id="contrato"
-            // value=""
-            onChange={handleFormChange}
-          >
+          <select name={contractFilterId} id="contrato">
             <option value="" disabled>
               Tipo de contrato
             </option>
@@ -187,12 +166,7 @@ export const FiltersForm = ({ onChange }) => {
           </select>
         </div>
         <div>
-          <select
-            name={experienceFilterId}
-            id="experiencia"
-            // value=""
-            onChange={handleFormChange}
-          >
+          <select name={experienceFilterId} id="experiencia">
             <option value="" disabled>
               Nivel de experiencia
             </option>

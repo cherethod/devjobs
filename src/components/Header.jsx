@@ -1,18 +1,22 @@
-const Header = () => {
-    return (
-        <header className="header-container">
-            <h2><a href="./index.html">DevJobs</a></h2>
-            <nav>
-                <a href="search.html">Empleos</a>
-                <a href="#">Empresas</a>
-                <a href="#">Salarios</a>
-            </nav>
-            <div>
-                <a href="#">Publicar un empleo</a>
-                <a href="#">Iniciar Sesión</a>
-            </div>
-        </header>
-    )
-}
+import { Link } from "./Link";
 
-export default Header
+const Header = () => {
+  return (
+    <header className="header-container">
+      <h2>
+        <Link href="/">DevJobs</Link>
+      </h2>
+      <nav>
+        <Link href="/search">Empleos</Link>
+        <Link href="#">Empresas</Link>
+        <Link href="#">Salarios</Link>
+      </nav>
+      <div>
+        <Link href="#">Publicar un empleo</Link>
+        <Link href="#">Iniciar Sesión</Link>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
