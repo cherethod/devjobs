@@ -9,7 +9,7 @@ const Header = () => {
       <nav>
         <Link href="/search">Empleos</Link>
         <Link href="#">Empresas</Link>
-        <Link href="#">Salarios</Link>
+        <Link href="/contacto">Contacto</Link>
       </nav>
       <div>
         <Link href="#">Publicar un empleo</Link>
