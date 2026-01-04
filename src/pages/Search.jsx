@@ -3,42 +3,16 @@ import { JobsList } from "../components/jobs_search/JobsList";
 import { Pagination } from "../components/jobs_search/Pagination";
 import { FiltersForm } from "../components/jobs_search/FiltersForm";
 
-import jobsResponse from "../jobsResponse.json";
 import { useFilters } from "../hooks/useFilters";
 
 export function SearchPage() {
-  const [currentPage, setCurrentPage] = useState(1);
 
-  const { filters, handleFilterChange, handlePageChange } = useFilters({
-    setCurrentPage
-  });
-
-  const RESOULTS_PER_PAGE = 5;
-
-  const filteredJobs = jobsResponse.filter(
-    (job) =>
-      (job.titulo.toLowerCase().includes(filters.searchFilter.toLowerCase()) ||
-        filters.searchFilter == "") &&
-      (job.data.technology.includes(filters.techFilter.toLowerCase()) ||
-        filters.techFilter == "") &&
-      (job.data.modalidad.includes(filters.locationFilter) ||
-        filters.locationFilter == "") &&
-      (job.data.contract.includes(filters.contractFilter) ||
-        filters.contractFilter == "") &&
-      (job.data.exp_level.includes(filters.experienceFilter) ||
-        filters.experienceFilter == "")
-  );
-
-  const jobsToShow = filteredJobs.slice(
-    (currentPage - 1) * RESOULTS_PER_PAGE,
-    currentPage * RESOULTS_PER_PAGE
-  );
-
-  const totalPages = Math.ceil(filteredJobs.length / RESOULTS_PER_PAGE);
+  const { filters, filteredJobs, jobsToShow, currentPage, totalPages, handleFilterChange, handlePageChange } = useFilters();
 
   useEffect(() => {
     document.title = `DevJobs - Búsqueda de empleos | Resultados: ${filteredJobs.length} - Página ${currentPage}`;
   }, [filteredJobs, currentPage]);
+
 
   return (
     <main>
