@@ -7,11 +7,11 @@ import { useFilters } from "../hooks/useFilters";
 
 export function SearchPage() {
 
-  const { filters, filteredJobs, jobsToShow, currentPage, totalPages, handleFilterChange, handlePageChange } = useFilters();
+  const { filters, jobs, total, currentPage, totalPages, isLoading, handleFilterChange, handlePageChange } = useFilters();
 
   useEffect(() => {
-    document.title = `DevJobs - Búsqueda de empleos | Resultados: ${filteredJobs.length} - Página ${currentPage}`;
-  }, [filteredJobs, currentPage]);
+    document.title = `DevJobs - Búsqueda de empleos | Resultados: ${total} - Página ${currentPage}`;
+  }, [jobs, currentPage]);
 
 
   return (
@@ -21,7 +21,9 @@ export function SearchPage() {
         <p>Explora miles de oportunidades en el sector tecnológico.</p>
         <FiltersForm onChange={handleFilterChange} filters={filters} />
       </section>
-      <JobsList jobsToShow={jobsToShow} />
+      {
+        isLoading ? <p>Cargando empleos...</p> : <JobsList jobs={jobs} />
+      }
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}

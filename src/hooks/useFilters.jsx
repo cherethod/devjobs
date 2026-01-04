@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import jobsResponse from "../jobsResponse.json";
 
 export function useFilters() {
   const [filters, setFilters] = useState({
@@ -9,31 +8,46 @@ export function useFilters() {
     experienceFilter: "",
     searchFilter: "",
   });
-  
+
   const [currentPage, setCurrentPage] = useState(1);
-  
-  const RESOULTS_PER_PAGE = 5;
+  const [jobs, setJobs] = useState([]);
+  const [total, setTotal] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const filteredJobs = jobsResponse.filter(
-    (job) =>
-      (job.titulo.toLowerCase().includes(filters.searchFilter.toLowerCase()) ||
-        filters.searchFilter == "") &&
-      (job.data.technology.includes(filters.techFilter.toLowerCase()) ||
-        filters.techFilter == "") &&
-      (job.data.modalidad.includes(filters.locationFilter) ||
-        filters.locationFilter == "") &&
-      (job.data.contract.includes(filters.contractFilter) ||
-        filters.contractFilter == "") &&
-      (job.data.exp_level.includes(filters.experienceFilter) ||
-        filters.experienceFilter == "")
-  );
+  const RESOULTS_PER_PAGE = 4;
 
-  const jobsToShow = filteredJobs.slice(
-    (currentPage - 1) * RESOULTS_PER_PAGE,
-    currentPage * RESOULTS_PER_PAGE
-  );
+  const totalPages = Math.ceil(total / RESOULTS_PER_PAGE);
 
-  const totalPages = Math.ceil(filteredJobs.length / RESOULTS_PER_PAGE);
+  useEffect(() => {
+    async function fetchJobs() {
+      try {
+        setIsLoading(true);
+
+        const params = new URLSearchParams();
+        if (filters.searchFilter) params.append("query", filters.searchFilter);
+        if (filters.techFilter) params.append("technology", filters.techFilter);
+        if (filters.locationFilter) params.append("type", filters.locationFilter);
+        if (filters.experienceFilter) params.append("level", filters.experienceFilter);
+        
+        const offset = (currentPage - 1) * RESOULTS_PER_PAGE;
+        params.append('limit', RESOULTS_PER_PAGE);
+        params.append('offset', offset);
+
+        
+        const queryParam = params.toString();
+
+        const response = await fetch(`https://jscamp-api.vercel.app/api/jobs${'?' + queryParam}`);
+        const json = await response.json();
+        setJobs(json.data);
+        setTotal(json.total);
+      } catch (error) {
+        throw new Error("Error fetching jobs: ", error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    fetchJobs();
+  }, [filters, currentPage]);
 
   function handleFilterChange(newFilters) {
     setFilters(newFilters);
@@ -57,5 +71,14 @@ export function useFilters() {
     });
   }, []);
 
-  return { filters, filteredJobs, jobsToShow, currentPage, totalPages, handleFilterChange, handlePageChange };
+  return {
+    filters,
+    jobs,
+    total,
+    currentPage,
+    totalPages,
+    isLoading,    
+    handleFilterChange,
+    handlePageChange,
+  };
 }

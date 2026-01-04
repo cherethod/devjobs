@@ -2,7 +2,7 @@ import { useState, useId } from "react";
 import { Alert } from "../components/Alert";
 
 export function ContactPage() {
-    const [isSendSuccess, setIsSendSuccess] = useState(false);
+  const [isSendSuccess, setIsSendSuccess] = useState(false);
   const contactNameId = useId();
   const contactEmailId = useId();
   const contactMessageId = useId();
@@ -18,7 +18,6 @@ export function ContactPage() {
 
     setIsSendSuccess(true);
 
-
     console.log(
       `Gracias por contactar con nosostros ${
         formInfo.name.split(" ")[0]
@@ -30,7 +29,7 @@ export function ContactPage() {
     setTimeout(() => {
       setIsSendSuccess(false);
     }, 5000);
-  }
+  };
 
   return (
     <main>
@@ -60,10 +59,12 @@ export function ContactPage() {
         </div>
         <button type="submit">Enviar</button>
       </form>
-        {isSendSuccess && ( <Alert type="info">
+      {isSendSuccess && (
+        <Alert type="info">
           ¡Gracias por contactarnos! Hemos recibido tu mensaje y nos pondremos
           en contacto contigo pronto.
-        </Alert>)}
+        </Alert>
+      )}
     </main>
   );
-  };
+}

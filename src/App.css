@@ -136,7 +136,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   & > section:nth-child(1) {
     height: 500px;
