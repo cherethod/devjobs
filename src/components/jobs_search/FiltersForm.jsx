@@ -1,14 +1,15 @@
 import { useId } from "react";
-import { useSearchForm } from "../../hooks/useForm";
+import { useSearchForm } from "../../hooks/useSearchForm";
+import { IconFilterOff } from '@tabler/icons-react';
 
-export const FiltersForm = ({ onChange, filters }) => {
+export const FiltersForm = ({ onChange, filters, hasActiveFilters, handleClearActiveFilters }) => {
   const searchFilterId = useId();
   const techFilterId = useId();
   const locationFilterId = useId();
   const contractFilterId = useId();
   const experienceFilterId = useId();
 
-  const { handleFormChange } = useSearchForm({
+  const { handleFormChange, handleClearSearchInput } = useSearchForm({
     techFilterId,
     locationFilterId,
     contractFilterId,
@@ -177,6 +178,9 @@ export const FiltersForm = ({ onChange, filters }) => {
             <option value="lead">Lead</option>
           </select>
         </div>
+        {hasActiveFilters && (
+        <div className="clear-filters-btn" onClick={handleClearActiveFilters}> <IconFilterOff stroke={2} /></div>
+        )}
       </div>
     </form>
   );

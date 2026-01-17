@@ -21,11 +21,17 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const changeToPage = (page) => {
     onPageChange(page);
   }
+
+  const handleBuildPageUrl = (page) => {
+    const url = new URL(window.location);
+    url.searchParams.set("page", page);
+    return `${url.pathname}${url.search}`;
+  }
   
     return (
           <nav className={styles.pagination}>
         <a 
-          href=""
+          href={handleBuildPageUrl(currentPage - 1)}
           onClick={prevPageChange}
           className={isFirstPage ? styles.isDisabled : ""}
           >
@@ -48,7 +54,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       {
         pages.map((page) => (
           <a 
-            href="#"
+            href={handleBuildPageUrl(page)}
             key={page}
             className={page === currentPage ? styles.isActive : ""}
             onClick={() => changeToPage(page)}
@@ -58,7 +64,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         ))
       }
         <a 
-        href=""
+        href={handleBuildPageUrl(currentPage + 1)}
         onClick={nextPageChange}
         className={isLastPage ? styles.isDisabled : ""}
         >
