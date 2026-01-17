@@ -1,33 +1,4 @@
-☐ # Agregar estilos a la página empleos
-☐ quitar altura de la sección de filtros y solo dejar padding en el top
-☐ Agregar que al cambiar de página se haga scroll al inicio de los resultados
-# Agregar JS para los botones de aplicar:
-    ✔ Usar solo un evento enn el contenedor padre @done(25-10-15 17:34)
-    ✔ Agregar clase is-active al botón seleccionado @done(25-10-15 17:34)
-    ✔ Desabilitar botón después de hacer clic y cambiar texto a "Aplicado" @done(25-10-15 17:35)
-    ☐ Persistir los datos
-
-# Agregar JS para la paginación:
-    ✔ Agregar la clase is-active al número de página seleccionado @done(25-10-15 17:35)
-    ✔ Agregar estilos al botón seleccionado @done(25-10-15 17:35)
-    ✔ Desabilitar el botón seleccionado @done(25-10-15 17:35)
-    ✔ Centrar pagination (como lo hizo midu) @done(25-10-20 18:07)
-    ✔ Desactivar boton ir atras en página 1 y adelante en última página @done(25-10-20 18:07)
-    ✘ Centralizar a un solo listener el evento de clic en el contenedor padre @cancelled(25-10-26 15:51)
-
-# Agregar JS a los filtros:
-    ✔ # Ocultar las ofertas que no coincidan con los filtros seleccionados @done(25-10-15 17:35)
-    ✘ Reparar error de filtro seleccionado pero valor vacío @cancelled(25-10-26 15:51)
-
-# REACT:
-    ✔ Componetizar buscador de empleos @done(25-11-01 16:03)
-    ✔ Componetizar lista de empleos @done(25-11-01 16:04)
-    ✔ Componetizar paginación @done(25-11-01 16:04)
-    ✔ Componetizar filtros @done(25-11-01 16:04)
-    ☐ Manejar estado con useState y useEffect
-    ✔ Renderizar lista de empleos desde un archivo JSON @done(25-11-01 16:04)
-    ☐ Migrar la importación del JSON a una llamada fetch simulada con useEffect
-    ✔ Manejar los filtros con estado y pasarlos como props a la lista de empleos @done(25-11-01 16:04)
-    ✔ Manejar la paginación con estado y pasarlo como props a la lista de empleos @done(25-11-01 16:04)
-    ☐ Manejar el estado de los botones de aplicar empleo @started(25-11-01 16:04)
-    ☐ Persistir el estado de los filtros y empleos aplicados en localStorage
+☐ Restaurar selectores de los filtros al estado inicial cuando se limpian los filtros de búsqueda.
+☐ ¿Limpiar el input search si se limpian los filtros de búsqueda?
+☐ Agregar referencias a los inputs de los filtros para poder resetearlos fácilmente.
+☐ Cargar iconos SVG localmente en lugar de usar biblioteca externa.
