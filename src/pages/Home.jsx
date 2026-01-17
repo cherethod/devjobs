@@ -14,6 +14,8 @@ export function HomePage() {
   };
   return (
     <main>
+      <title>DevJobs - Inicio</title>
+      <meta name="description" content="Encuentra las mejores ofertas de empleo para desarrolladores web en DevJobs." />
       <section className="hero">
         <img src="img/background.webp" alt="" />
         <h1>Encuentra el trabajo de tus sueños</h1>
