@@ -242,7 +242,7 @@ main {
 
 /* Formulario de Búsqueda */
 form {
-  max-width: 72rem;
+  max-width: 95dvw;
   width: 100%;
   margin: 0 auto;
   padding-inline: 1rem;
@@ -286,10 +286,22 @@ form {
     justify-content: flex-start;
     gap: 0.5rem;
     padding: 0.8rem 0;
+    max-width: 90%;
     div {
       background-color: var(--card-bg);
       border-radius: 0.5rem;
       padding-right: 0.7rem;
+      &.clear-filters-btn {
+        padding: 0 .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: var(--text-muted);
+        &:hover {
+          color: var(--primary-hover);
+        }
+      }
     }
     select {
       background: inherit;
@@ -303,7 +315,12 @@ form {
     }
   }
 
-  &#contact-form {
+  
+}
+
+/* Sección de contacto */
+
+#contact-form {
     display: flex;
     flex-direction: column;
     max-width: 60%;
@@ -325,7 +342,10 @@ form {
         border-radius: 0.5rem;
         width: 100%;
         resize: none;
-        
+      }
+      &.missing-field input,
+      &.missing-field textarea {
+        border: 2px solid rgb(239, 68, 68);
       }
       label {
         margin-bottom: 0.5rem;
@@ -343,9 +363,7 @@ form {
       }
     }
   }
-}
 
-/* Sección de contacto */
 .contact-title {
   font-size: 2rem;
   font-weight: 800;
