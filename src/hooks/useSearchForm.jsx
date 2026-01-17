@@ -7,8 +7,11 @@ export function useSearchForm({
   onChange,
 }) {
   const handleFormChange = (event) => {
+    event.preventDefault();
     const jobsFormData = new FormData(event.currentTarget);
-
+    if (event.target.name === searchFilterId) {
+      
+    }
     const filters = {
       techFilter: jobsFormData.get(techFilterId) || "",
       locationFilter: jobsFormData.get(locationFilterId) || "",
