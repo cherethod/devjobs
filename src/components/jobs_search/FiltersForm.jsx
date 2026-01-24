@@ -19,7 +19,7 @@ export const FiltersForm = ({ onChange, filters, hasActiveFilters, handleClearAc
   });
 
   return (
-    <form action="" role="search" onChange={handleFormChange}>
+    <form action="" role="search" onChange={handleFormChange} onSubmit={handleFormChange}>
       <div>
         <svg
           width="24"

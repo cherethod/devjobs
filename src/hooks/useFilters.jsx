@@ -131,7 +131,7 @@ export function useFilters() {
       ? `${window.location.pathname}?${params.toString()}`
       : window.location.pathname;
     navigateTo(newUlr);
-  }, [filters, currentPage, navigateTo]);
+  }, [filters, currentPage]);
 
   return {
     filters,

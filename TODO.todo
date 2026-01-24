@@ -2,3 +2,6 @@
 ☐ ¿Limpiar el input search si se limpian los filtros de búsqueda?
 ☐ Agregar referencias a los inputs de los filtros para poder resetearlos fácilmente.
 ☐ Cargar iconos SVG localmente en lugar de usar biblioteca externa.
+☐ Aplicar efectos focus y blur en los filtros par mejorar la experiencia de usuario.
+☐ Agregar spiner de carga mientras se obtienen los datos de la API.
+☐ Guardar el estado de los filtros en el local storage para mantener la selección al recargar la página.
